@@ -1,0 +1,20 @@
+{
+  "name": "finanzamille-landing",
+  "version": "1.0.0",
+  "description": "Landing page for finanzamille - Financial freedom platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server",
+    "build": "echo 'Build script not configured yet'",
+    "preview": "npx live-server"
+  },
+  "keywords": [
+    "finance",
+    "investment",
+    "landing-page"
+  ],
+  "author": "finanzamille Team",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
