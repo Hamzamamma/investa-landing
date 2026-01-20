@@ -41,10 +41,6 @@ const FaqSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 pt-8 text-sm text-gray-400 font-medium">
-          Hai altre domande? <a href="#" className="text-black underline underline-offset-4 hover:text-gray-600">Scrivici su WhatsApp</a>
-        </div>
-
       </div>
     </section>
   );

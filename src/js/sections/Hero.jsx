@@ -81,13 +81,17 @@ const Hero = () => {
 
         {/* 3. CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-32">
-          <Button size="lg" className="h-12 px-8 text-base bg-black hover:bg-gray-800 text-white rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
-            Inizia a Investire
-          </Button>
-          <Button size="lg" variant="outline" className="h-12 px-8 text-base border-gray-200 text-gray-700 hover:bg-gray-50 rounded-full gap-2">
-            <Icon name="Github" className="w-4 h-4" />
-            Vedi Demo
-          </Button>
+          <a href="#pricing">
+            <Button size="lg" className="h-12 px-8 text-base bg-black hover:bg-gray-800 text-white rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+              Vedi Abbonamenti
+            </Button>
+          </a>
+          <a href="#newsletter">
+            <Button size="lg" variant="outline" className="h-12 px-8 text-base border-gray-200 text-gray-700 hover:bg-gray-50 rounded-full gap-2">
+              <Icon name="Mail" className="w-4 h-4" />
+              Iscriviti alla Newsletter
+            </Button>
+          </a>
         </div>
 
         {/* 4. HERO VIDEO */}

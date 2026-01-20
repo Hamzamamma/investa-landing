@@ -1,5 +1,5 @@
 const PricingSection = () => (
-  <section className="py-24 bg-white">
+  <section id="pricing" className="py-24 bg-white">
     <div className="max-w-7xl mx-auto px-6">
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h2 className="text-4xl font-semibold mb-6">Scegli il tuo piano</h2>

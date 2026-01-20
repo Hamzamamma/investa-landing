@@ -19,6 +19,7 @@ const App = () => {
       <PricingSection />
       <TeamSection />
       <NewsSection />
+      <NewsletterSection />
       <Footer />
     </div>
   );

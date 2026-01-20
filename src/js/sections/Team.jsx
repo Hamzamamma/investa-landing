@@ -1,18 +1,13 @@
 const TeamSection = () => (
   <section className="py-24 bg-white border-t border-gray-100">
     <div className="max-w-7xl mx-auto px-6">
-      <div className="mb-20 md:flex justify-between items-end">
+      <div className="mb-20">
         <div className="max-w-2xl">
           <span className="text-emerald-600 font-semibold tracking-wide uppercase text-xs mb-3 block">Chi Siamo</span>
           <h2 className="text-4xl font-semibold mb-6">Costruito da investitori, <br/>per investitori.</h2>
           <p className="text-gray-500 text-lg">
             Un team diversificato di esperti finanziari, ingegneri e visionari uniti da un unico obiettivo: rendere la ricchezza accessibile.
           </p>
-        </div>
-        <div className="hidden md:block">
-          <button className="flex items-center gap-2 text-sm font-semibold border-b border-black pb-1 hover:text-emerald-600 hover:border-emerald-600 transition-colors">
-            Unisciti al team <Icon name="ArrowRight" size={14} />
-          </button>
         </div>
       </div>
 
